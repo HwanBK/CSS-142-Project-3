@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ParabolaCalc
+comment0.text=\r\n\ Supplier\ code\ for\ calculation\ functions.\r\n\r\n\ @author\ Hwansu\ Kim\ (Billy)\r\n\ @version\ 01/21/2022\r\n
+comment1.params=xPosition
+comment1.target=double\ parabolaFunction(double)
+comment1.text=\r\n\ \ Solves\ for\ f(x)\ based\ on\ variable\ x-input.\r\n\ \r\n\ \ @param\ \ xPosition\ \ \ variable\ x,\ in\ floating-point\ type.\r\n\ \ @return\ \ \ \ \ \ \ \ \ \ \ \ \ f(x)\ or\ y,\ in\ floating-point\ type.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n
+comment2.params=xPosition
+comment2.target=double\ derivativeFunction(double)
+comment2.text=\r\n\ Solves\ for\ f'(x)\ based\ on\ variable\ x-input.\r\n\ \r\n\ @param\ \ \ xPosition\ \ \ variable\ x,\ floating-point\ type.\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ f'(x)\ or\ tangent\ line\ at\ x,\ in\ floating-point\ type.\r\n
+comment3.params=numOfRec
+comment3.target=double\ leftRiemannSum(int)
+comment3.text=\r\n\ Solves\ for\ the\ area\ under\ the\ parabola\ based\ on\ the\ x-domain\ and\ number\ of\ rectangles.\r\n\ \r\n\ @param\ \ \ numOfRec\ \ \ \ the\ number\ of\ rectangles\ used,\ integer\ type;\ must\ not\ be\ zero\ or\ negative.\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ area\ under\ the\ parabola,\ floating-point\ type.\r\n
+comment4.params=numOfRec
+comment4.target=double\ overEsti(int)
+comment4.text=\r\n\ Solves\ for\ the\ percentage\ of\ over\ estimation\ from\ leftRiemannSum\ method.\r\n\ \r\n\ @param\ \ \ numOfRec\ \ \ \ the\ number\ of\ rectangles\ used,\ integer\ type;\ must\ not\ be\ zero\ or\ negative.\r\n\ @return\ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ percentage\ of\ over-estimation\ of\ the\ area,\ floating-point\ type.\r\n
+numComments=5
